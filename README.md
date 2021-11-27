@@ -4,7 +4,7 @@
 
 - Validation during Training
   * I am running validation using test dataset after couple of epochs
-  * Upon acheiving better validation error 
+  * Upon acheiving better then previous validation error 
     - I save the current model in file named "trained_model.pt"
     - Retain the new value for lambda (L2 regularization value)
   * Prints out the best value for lambda
